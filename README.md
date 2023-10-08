@@ -40,11 +40,23 @@ If one is able to identify these risky loan applicants, then such loans can be r
 
 In other words, the company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default. The company can utilise this knowledge for its portfolio and risk assessment.
 
+When a person applies for a loan, there are two types of decisions that could be taken by the company:
+
+*Loan accepted: If the company approves the loan, there are 3 possible scenarios described below:
+
+*Fully paid: Applicant has fully paid the loan (the principal and the interest rate)
+
+*Current: Applicant is in the process of paying the instalments, i.e. the tenure of the loan is not yet completed. These candidates are not labelled as 'defaulted'.
+
+*Charged-off: Applicant has not paid the instalments in due time for a long period of time, i.e. he/she has defaulted on the loan 
+
+*Loan rejected: The company had rejected the loan (because the candidate does not meet their requirements etc.). Since the loan was rejected, there is no transactional history of those applicants with the company and so this data is not available with the company (and thus in this dataset)
+
 ## Approach
 - Step 0 - Data Understanding- Identification of Data Quality Issues
 - Step 1 - Data Cleaning  - Removing high percentage(70%) of Empty/NA/Duplicate Values
 - Step 2 - Dropping Columns based on EDA and Domain Knowledge Such as Columns with Long text, redundant
-- Step 3 - Convert the data types
+- Step 3 - Data Type Transformation - Remove % , <1 year etc
 - Step 4 - Identify columns with blank values which need to be imputed
 - Step 5 - Analysis of the dataset after clean up
 - Step 6 - Outlier identification and Handling 
@@ -55,7 +67,7 @@ In other words, the company wants to understand the driving factors (or driver v
 
 ## Technologies Used
 - [Python 3.12.0](https://www.python.org/download/releases/3.0/)
-- [Jupyter Notebook]
+- [Jupyter Notebook]()
 - [JupyterLab](https://jupyter.org/)
 - [Anaconda](https://anaconda.cloud/)
 - [numpy](https://github.com/numpy)
@@ -70,7 +82,7 @@ In other words, the company wants to understand the driving factors (or driver v
 Give credit here.
 - UpGrad Video By Akashdeep Makkar
 - References: https://www.geeksforgeeks.org/what-is-exploratory-data-analysis/
-- This project was based on [this tutorial](https://www.example.com).
+
 
 
 ## Contact
