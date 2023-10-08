@@ -3,16 +3,16 @@
 
 
 ## Table of Contents
-•	Problem Statement
-•	Objectives
-•	Dataset Analysis
-•	Approach
-•	Case Study Analysis
-•	Conclusions
-•	Technologies Used
-•	Acknowledgements
-•	Glossary
-•	Team
+* [Problem Statement](#problem-statement)
+* [Objectives](#objectives)
+* [Dataset Analysis](#dataset-analysis)
+* [Approach](#approach)
+* [Case Study Analysis](#case-study-analysis)
+* [Conclusions](#conclusions)
+* [Technologies Used](#technologies-used)
+* [Acknowledgements](#acknowledgements)
+* [Glossary](#glossary)
+* [Team](#team)
 
 
 <!-- You can include any other section that is pertinent to your problem -->
@@ -40,35 +40,46 @@ If one is able to identify these risky loan applicants, then such loans can be r
 
 In other words, the company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default. The company can utilise this knowledge for its portfolio and risk assessment.
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
+## Approach
+- Step 0 - Data Understanding- Identification of Data Quality Issues
+- Step 1 - Data Cleaning  - Removing high percentage(70%) of Empty/NA/Duplicate Values
+- Step 2 - Dropping Columns based on EDA and Domain Knowledge Such as Columns with Long text, redundant
+- Step 3 - Convert the data types
+- Step 4 - Identify columns with blank values which need to be imputed
+- Step 5 - Analysis of the dataset after clean up
+- Step 6 - Outlier identification and Handling 
+- Step 7 - **Analysis** - Univariate, Bivariate and Derived Metrics Analysis
+- Step 8 - **Insights** - Inference and Recommendation
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- [Python 3.12.0](https://www.python.org/download/releases/3.0/)
+- [Jupyter Notebook]
+- [JupyterLab](https://jupyter.org/)
+- [Anaconda](https://anaconda.cloud/)
+- [numpy](https://github.com/numpy)
+- [pandas](https://github.com/pandas-dev/pandas)
+- [matplotlib](https://github.com/matplotlib)
+- [seaborn](https://github.com/seaborn)
+
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
+- UpGrad Video By Akashdeep Makkar
+- References: https://www.geeksforgeeks.org/what-is-exploratory-data-analysis/
 - This project was based on [this tutorial](https://www.example.com).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@AshokVashist] & [@bineeshpc] - feel free to contact us!
 
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
+## Team
+* [Ashok Vashist]()
+* [Bineesh Panangat]()
 
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+
+
