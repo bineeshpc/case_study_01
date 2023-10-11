@@ -80,7 +80,8 @@ When a person applies for a loan, there are two types of decisions that could be
 
 ## Acknowledgements
 Give credit here.
-- UpGrad Video By Akashdeep Makkar
+- UpGrad Live Session By Akashdeep Makkar
+- Upgrad Live Session By Aditya bhattacharya
 - References: https://www.geeksforgeeks.org/what-is-exploratory-data-analysis/
 
 
